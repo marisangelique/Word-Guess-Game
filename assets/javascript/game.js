@@ -101,7 +101,7 @@ document.onkeyup = function (event){
    if(lettersLeft() === 0){
       wins++
       document.getElementById("win-box").innerHTML = wins;
-      alert("Nice! You have won: "+ wins + "times!");
+      alert("Nice! You have won: "+ wins + " times!");
 
       randomWord = wordList[Math.floor(Math.random() * wordList.length)];
 
