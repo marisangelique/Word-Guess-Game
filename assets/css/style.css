@@ -1,0 +1,83 @@
+body{
+    background: url("../images/country-quilt-dark.png")
+}
+
+h1{
+    font-family: 'Ewert', cursive;
+    color: #DC143C;
+    font-size: 130px;
+    border-style: dotted;
+    border-width: 10px;
+    border-radius: 100px;
+    border-color: #8FBC8F;
+    border-bottom: none;
+    opacity: .8;
+    padding: 40px;
+    position: relative;
+}
+
+h3{
+    font-family: 'Bungee', cursive;
+    color: #F0FFF0;
+    font-size: 55px;
+    margin-left: 105px;
+    margin-top: -40px;
+
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+h5{
+    font-family: 'Bungee', cursive;
+    color: #F0FFF0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.leftBox{
+    border-style: double;
+    border-color: #8FBC8F;
+}
+
+.rightBox{
+    border-style: double;
+    border-color: #8FBC8F;
+}
+
+.currentWord{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-style: dashed;
+    font-family: 'Bungee', cursive;
+}
+
+.win{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-style: dashed;
+    font-family: 'Bungee', cursive;
+
+}
+
+.remaining{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-style: dashed;
+    margin-bottom: 20px;
+    font-family: 'Bungee', cursive;
+}
+
+.letters{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-style: dashed;
+    padding: 20px;
+    font-family: 'Bungee', cursive;
+}
