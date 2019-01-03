@@ -70,7 +70,7 @@ document.onkeyup = function (event){
       }
       return positions;
    }
-   console.log('User guess: '.concat(userGuess));
+   console.log('User guess: '.concat(randomWord));
 
    var positions = letterInWord (randomWord);
 
